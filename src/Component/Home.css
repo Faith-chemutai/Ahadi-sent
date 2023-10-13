@@ -1,0 +1,230 @@
+/* Home.css */
+.home-container {
+    background-color: #fff;
+  }
+  .imgA{
+    width:20%;
+    height:40%;
+    border:30px;
+
+  }
+  h1 {
+    font-size: 36px;
+    color: #4CAF50; 
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #4CAF50; 
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45A049; /* Slightly darker green color on hover */
+  }
+  
+  
+  .skiza-tune-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skiza-tune {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skiza-tune img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .skiza-tune h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .skiza-tune p {
+    font-size: 16px;
+    color: black;
+  }
+  
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  
+  
+  .search{
+  margin-left: 25px;
+  }
+  
+  .text {
+    border-radius: 50px; 
+    width:70%;
+    background: rgb(106, 187, 81);
+    display: inline-block; /* Set to inline-block to have text and image on the same line */
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    
+    
+    
+  }
+  .img{
+    vertical-align: middle; /* Align image vertically in the middle */
+    max-width: 100px;
+  
+    border-radius: 20px;
+    border-color: transparent;
+  }
+  .menucont{
+    margin-left: 30vw;
+  
+  }
+  .menu-icon {
+    width: 35px;
+    height: 5px;
+    background-color: #0b0b0b; /* Adjust the color as needed */
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .menu{
+  margin-left: 55vh;
+  margin-top: 0px;
+  
+  }
+  .header {
+    display: flex;
+    align-items: center; /* Vertically center items within the header */
+  }
+  /* Home.css */
+  .home-container {
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #4CAF50; 
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #4CAF50; 
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45A049; /* Slightly darker green color on hover */
+  }
+  
+  
+  .skiza-tune-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skiza-tune {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skiza-tune img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .skiza-tune h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .skiza-tune p {
+    font-size: 16px;
+    color: black;
+  }  
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .sect{
+    display:flex;
+    flex-direction: row;
+  }
+  .serm{
+    padding: 20px;
+
+ }
+ .search{
+ margin-left:60%;
+ margin-bottom:-40px;
+ padding:10px;
+}
+.text{
+  margin-top:10px;
+
+}
+.img {
+  margin-left: 250px;
+  margin-top: -315px;
+  margin-bottom: -60px;
+  width: 50vw; /* Change width to a larger value */
+  height: 40vh; /* Change height to a larger value */
+}
+.text2{
+text-align: left;
+margin-left:30px;
+}
+      
+  
