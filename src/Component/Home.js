@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Home.css";
-import SkizaTune from "./SkizaTunes";
+// import SkizaTune from "./SkizaTunes";
+import dummySongs from "./DummyData";
+
 import "font-awesome/css/font-awesome.min.css";
 import SearchBarToggle from "./SearchBarToggle";
 
@@ -23,6 +25,9 @@ const Home = () => {
       audioUrl: "https://example.com/audio2.mp3", // Replace with actual audio URL
     },
   ];
+  const playSong = (youtubeUrl) => {
+    window.open(youtubeUrl, "_blank"); // Open YouTube video URL in a new tab or window
+  };
 
   const [filteredSkizaTunes, setFilteredSkizaTunes] = useState(skizaTunesData);
   const [searchBarVisible, setSearchBarVisible] = useState(false);
@@ -88,18 +93,25 @@ const Home = () => {
           alt="Microphone"
         />
       </h3>
+      <div class>
+        <h1>Skiza tunes</h1>
+        <ol>
+          {dummySongs.map((song) => (
+            <li key={song.id}>
+              <button
+                className="play-button"
+                onClick={() => playSong(song.youtubeUrl)}
+              >
+                ▶️
+              </button>
 
-      <div className="skiza-tune-list">
-        {filteredSkizaTunes.map((tune, index) => (
-          <SkizaTune
-            key={index}
-            title={tune.title}
-            skizaCode={tune.skizaCode}
-            price={tune.price}
-            imageUrl={tune.imageUrl}
-            audioUrl={tune.audioUrl}
-          />
-        ))}
+              <a href={song.link} target="_blank" rel="noopener noreferrer">
+                {song.title} {song.artist}
+              </a>
+              <span> - {song.timestamp}</span>
+            </li>
+          ))}
+        </ol>
       </div>
     </div>
   );
