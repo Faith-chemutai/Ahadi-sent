@@ -203,8 +203,8 @@
     flex-direction: row;
   }
   .serm{
-    padding: 20px;
-
+align-items: left;
+margin-top:20px;
  }
  .search{
  margin-left:60%;
@@ -227,4 +227,6 @@ text-align: left;
 margin-left:30px;
 }
       
-  
+.menu{
+  margin-top:-30px;
+}
