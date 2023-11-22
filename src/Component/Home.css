@@ -1,4 +1,51 @@
 /* Home.css */
+
+  /* Larger screens */
+.home-container {
+  /* Your existing styles for larger screens go here */
+}
+
+.text {
+  font-size: 24px; /* Adjust font size for larger screens */
+}
+
+/* Media query for screens with a maximum width of 600 pixels (typical for mobile devices) */
+@media screen and (max-width: 600px) {
+  .home-container {
+    /* Adjust styles for smaller screens */
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .sect {
+    flex-direction: column; /* Stack header elements vertically on smaller screens */
+  }
+
+  .website-title-image {
+    width: 150px; /* Adjust the logo size for smaller screens */
+  }
+
+  .serm {
+    flex-direction: column; /* Stack search bar and menu vertically on smaller screens */
+  }
+
+  .menu {
+    display: none; /* Hide the menu icons on smaller screens */
+  }
+
+  .text2 {
+    text-align: center; /* Center-align text on smaller screens */
+  }
+
+  .img {
+    width: 100%; /* Make the image fill the container width on smaller screens */
+  }
+
+}
+
 .home-container {
     background-color: #fff;
   }
@@ -236,4 +283,5 @@ margin-left:30px;
   font-size: 1.2em;
   color: #72b133; /* Change the color as desired */
   cursor: pointer;
+  margin-left:-50%;
 }
