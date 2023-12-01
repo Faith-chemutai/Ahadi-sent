@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "./Home.css";
 // import SkizaTune from "./SkizaTunes";
 import dummySongs from "./DummyData";
-
-import "font-awesome/css/font-awesome.min.css";
 import SearchBarToggle from "./SearchBarToggle";
+import "font-awesome/css/font-awesome.min.css";
+import { NavLink } from 'react-router-dom';
+
 
 const Home = () => {
   const skizaTunesData = [
@@ -94,8 +95,11 @@ const Home = () => {
         />
       </h3>
       <div class>
-        <h1>Skiza tunes</h1>
-        <ol>
+      <NavLink to="/Home2">
+      <button>Skiza Tunes</button>
+    </NavLink>
+     
+             <ol>
           {dummySongs.map((song) => (
             <li key={song.id}>
               <button

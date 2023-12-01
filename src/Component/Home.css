@@ -1,6 +1,4 @@
-/* Home.css */
-
-  /* Larger screens */
+/* Home.css *//* Larger screens */
 .home-container {
   /* Your existing styles for larger screens go here */
 }
@@ -44,8 +42,10 @@
     width: 100%; /* Make the image fill the container width on smaller screens */
   }
 
+  /* Add more styles as needed for smaller screens */
 }
 
+  
 .home-container {
     background-color: #fff;
   }
